@@ -7,7 +7,7 @@ app.set('view engine', 'hbs')
 app.use(parser.urlencoded({extended: true}))
 
 app.get('/', (req, res) => {
-  res.send('hi')
+  res.render('index')
 })
 
 app.listen(3000, console.log('listening'))
