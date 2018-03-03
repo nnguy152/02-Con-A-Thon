@@ -3,60 +3,70 @@
     "name": "Anime Expo",
     "date": "July",
     "location": "Los Angeles, CA",
-    "url": "http://www.anime-expo.org"
+    "url": "http://www.anime-expo.org",
+    "genre": "anime"
   },
   {
     "name": "Anime Matsuri",
     "date": "April",
     "location": "Houston, TX",
-    "url": "https://www.animematsuri.com"
+    "url": "https://www.animematsuri.com",
+    "genre": "anime"
   },
   {
     "name": "A-Kon",
     "date": "June",
     "location": "Fort Worth, TX",
-    "url": "https://www.a-kon.com"
+    "url": "https://www.a-kon.com",
+    "genre": "anime"
   },
   {
     "name": "Anime Weekend Atlanta",
     "date": "September",
     "location": "Atlanta, GA",
-    "url": "https://awa-con.com"
+    "url": "https://awa-con.com",
+    "genre": "anime"
   },
   {
     "name": "Anime Central",
     "date": "May",
     "location": "Rosemont, IL",
-    "url": "http://www.acen.org"
+    "url": "http://www.acen.org",
+    "genre": "anime"
   },
   {
     "name": "Anime Boston",
     "date": "March",
     "location": "Boston, MA",
-    "url": "http://animeboston.com"
+    "url": "http://animeboston.com",
+    "genre": "anime"
   }, 
   {
     "name": "Sakura-Con",
     "date": "April",
     "location": "Seattle, WA",
-    "url": "http://sakuracon.org"
+    "url": "http://sakuracon.org",
+    "genre": "anime"
   },
   {
     "name": "Otakon",
     "date": "August",
     "location": "Washington, DC",
-    "url": "https://www.otakon.com"
+    "url": "https://www.otakon.com",
+    "genre": "anime"
   },  
   {
     "name": "Youmacon",
     "date": "November",
     "location": "Detroit, MI",
-    "url": "http://www.youmacon.com"
+    "url": "http://www.youmacon.com",
+    "genre": "anime"
   },
   {
     "name": "Anime NYC",
     "date": "November",
     "location": "New York, NY",
-    "url": "http://animenyc.com"
+    "url": "http://animenyc.com",
+    "genre": "anime"
   }
 ]

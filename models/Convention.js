@@ -1,12 +1,13 @@
 const mongoose = require('../db/connection')
 
-const AnimeConSchema = new mongoose.Schema({
+const ConSchema = new mongoose.Schema({
   name: String,
   location: String,
   date: String,
-  url: String
+  url: String,
+  genre: String
 })
 
-const AnimeCon = mongoose.model('Con', AnimeConSchema)
+const Con = mongoose.model('Con', ConSchema)
 
-module.exports = AnimeCon
+module.exports = Con
