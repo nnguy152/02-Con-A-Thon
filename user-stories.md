@@ -1,29 +1,27 @@
-# TITLEHERE 
-Nerdy Culture
-This site allows users to see and contribute links and images of nerd culture in an Instagram-like fashion. Users will be able to save images/links they like in their profile. Images will popup with detail of that image and links (if it's referencing someplace or something) and links will direct users to those sites. 
+# CON-A-THON
+Nerdy Conventions Galore!
+
+Planning your con trip has never been so easy. Get your geek on by planning out your con schedule! 
+This site allows users to see a list of all the anime (bonus: comic and gaming conventions) in the USA. Users can view the date and location of each convention. Each convention will have a link to the con home page so users can easily check-out more specific details. 
 
 ## User Stories
-
 ## MVP
 * As a User, I want to explore the site without an account, so I don't have to sign up.
-* As a User, I want to see links to other sites, so I have multiple resources to explore.
-* As a User, I want to see a preview/description, so that I don't have to click through everything.
+* As a User, I want to see links to other sites, so I don't have to go googling for it.
+* As a User, I want to create an account, so I can save/delete the conventions I'm interested in going to.
 
 ### Bronze
-* As a User, I want to create an account, so I can create/post/save things.
-* As a User, I want to contribute links to the site, so that I can share cool nerdy things I've seen.
-* As a User, I want to be able to save/'like' those cool places.
+* As a User, I want the option to add/edit/delete notes about the cons I plan to go to.
 
 ### Silver 
-* As a User, I want to be able to upload images, so I can save images as well.
+* As a User, I want to see my saved cons in a calender, so I can better visualize my schedule (like a google calender).
 
 ### Gold
 * As a User, I want to be able to tag and filter through content, so I don't have to see things not relevant to my interests.
 
 ## Models
   - User Sign-Up/Log-In: Username, Password (Strings)
-  - Links: Title, Image (that I uploaded), Description, URL (Strings)
-  - Images (Uploads): (Same as Links but images that users upload)
+  - Cons: Name, Date, Location, URL (Strings)
 
 ## WireFrame
 ![alt text](image.png)
