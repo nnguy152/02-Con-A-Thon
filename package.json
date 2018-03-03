@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/nnguy152/02-Project#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.0.7",
     "npm": "^5.7.1"
   }
 }
