@@ -68,5 +68,146 @@
     "location": "New York, NY",
     "url": "http://animenyc.com",
     "genre": "anime"
+  },
+  {
+    "name": "San Diego Comic Con",
+    "date": "July",
+    "location": "San Diego, CA",
+    "url": "http://comic-cons.xyz/event/san-diego-comic-con-international-california/",
+    "genre": "comic"
+  },
+  {
+    "name": "New York Comic Con",
+    "date": "October",
+    "location": "New York, NY",
+    "url": "http://comic-cons.xyz/event/new-york-comic-con/",
+    "genre": "comic"
+  },
+  {
+    "name": "Emerald City Comicon",
+    "date": "March",
+    "location": "Seattle, WA",
+    "url": "http://comic-cons.xyz/event/emerald-city-comicon-seattle-washington/",
+    "genre": "comic"
+  },
+  {
+    "name": "Denver Comic Con",
+    "date": "June",
+    "location": "Denver, CO",
+    "url": "http://comic-cons.xyz/event/denver-comic-con-colorado/",
+    "genre": "comic"
+  },
+  {
+    "name": "Phoenix Comicon",
+    "date": "May",
+    "location": "Phoenix, AZ",
+    "url": "http://comic-cons.xyz/event/phoenix-comicon-arizona/",
+    "genre": "comic"
+  },
+  {
+    "name": "Wondercon",
+    "date": "March",
+    "location": "Anaheim, CA",
+    "url": "https://www.comic-con.org/wca",
+    "genre": "comic"
+  },
+  {
+    "name": "Heroes Con",
+    "date": "June",
+    "location": "Charlotte, NC",
+    "url": "https://www.heroesonline.com/heroescon/",
+    "genre": "comic"
+  },
+  {
+    "name": "Chicago Comic and Entertainment Expo (C2E2)",
+    "date": "April",
+    "location": "Chicago, IL",
+    "url": "http://www.c2e2.com",
+    "genre": "comic"
+  },
+  {
+    "name": "Megacon",
+    "date": "May",
+    "location": "Orlando, FL",
+    "url": "http://megaconorlando.com",
+    "genre": "comic"
+  },
+  {
+    "name": "Dragon Con",
+    "date": "August",
+    "location": "Atlanta, GA",
+    "url": "http://www.dragoncon.org",
+    "genre": "comic"
+  },
+  {
+    "name": "PAX West",
+    "date": "September",
+    "location": "Seattle, WA",
+    "url": "http://west.paxsite.com",
+    "genre": "gaming"
+  },
+  {
+    "name": "PAX East",
+    "date": "April",
+    "location": "Boston, MA",
+    "url": "http://east.paxsite.com",
+    "genre": "gaming"
+  },
+  {
+    "name": "GoPlay Northwest",
+    "date": "July",
+    "location": "Seattle, WA",
+    "url": "http://www.goplaynw.org",
+    "genre": "gaming"
+  },
+  {
+    "name": "Gen Con",
+    "date": "July",
+    "location": "Indianapolis, IN",
+    "url": "https://www.gencon.com",
+    "genre": "gaming"
+  },
+  {
+    "name": "IndieCade",
+    "date": "October",
+    "location": "Los Angeles, CA",
+    "url": "http://www.indiecade.com",
+    "genre": "gaming"
+  },
+  {
+    "name": "Origins Game Fair",
+    "date": "June",
+    "location": "Columbus, OH",
+    "url": "http://originsgamefair.com",
+    "genre": "gaming"
+  },
+
+  {
+    "name": "Blizzcon",
+    "date": "November",
+    "location": "Anaheim, CA",
+    "url": "https://blizzcon.com/en-us/",
+    "genre": "gaming"
+  },
+  {
+    "name": "Magfest",
+    "date": "January",
+    "location": "National Harbor, MD",
+    "url": "https://www.magfest.org",
+    "genre": "gaming"
+  },
+  {
+    "name": "TwitchCon",
+    "date": "October",
+    "location": "San Jose, CA",
+    "url": "https://www.twitchcon.com",
+    "genre": "gaming"
+  },
+  {
+    "name": "SaltCON",
+    "date": "March",
+    "location": "Layton, UT",
+    "url": "http://saltcon.com",
+    "genre": "gaming"
   }
 ]
