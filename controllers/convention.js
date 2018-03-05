@@ -1,5 +1,8 @@
 const express = require('express')
 const router = express.Router()
+const parser = require('body-parser')
+const methodOverride = require('method-override')
+const passport = require('passport')
 const Con = require('../models/Convention')
 
 // displays top ten conventions on homepage

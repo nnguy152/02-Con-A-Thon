@@ -9,5 +9,4 @@ const ConSchema = new mongoose.Schema({
 })
 
 const Con = mongoose.model('Con', ConSchema)
-
 module.exports = Con
