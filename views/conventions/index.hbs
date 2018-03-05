@@ -1,0 +1,12 @@
+<h1>Hi {{this.username}}</h1>
+
+{{#each favesList}}
+  <ul>
+    <li>
+      {{this.name}}
+    </li>
+  </ul>
+{{/each}}
+
+{{!-- make a form with submit button that is THIS.ID on front end.
+on back end, when submit, post it in array --}}

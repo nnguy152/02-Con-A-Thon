@@ -1,4 +1,4 @@
-const mongoose = require('../db/userconnect')
+const mongoose = require('../db/connection')
 const bcrypt = require('bcrypt-nodejs')
 
 const UserSchema = new mongoose.Schema({
