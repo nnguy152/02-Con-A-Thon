@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const Con = require('../models/Convention')
 
+// displays top ten conventions on homepage
 router.get('/', (req, res) => {
   Con.find({}).then(con => {
     var animeCon = con.filter((i) => {
