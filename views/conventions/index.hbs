@@ -1,12 +1,12 @@
 <h1>Hi {{this.username}}</h1>
 
-{{#each favesList}}
+{{!-- not working because router not 'faving' cons --}}
+{{#each faveList}}
   <ul>
     <li>
-      {{this.name}}
+      {{this.id}}
     </li>
   </ul>
 {{/each}}
 
-{{!-- make a form with submit button that is THIS.ID on front end.
-on back end, when submit, post it in array --}}
+<a href="/conventions/new">Not interested in any of the conventions listed? Add your own!</a>

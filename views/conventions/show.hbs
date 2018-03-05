@@ -2,9 +2,15 @@
 <li>{{this.name}}</li>
 <li>{{this.date}}</li>
 <li>{{this.location}}</li>
-<li><a href="{{this.url}}">Their Website <3</a></li>
+<li><a href="{{this.url}}">Visit their Website</a></li>
 </ul>
 
-<p class="fave">Add this Con to your Go List!</p>
+{{!-- <p class="fave">Add this Con to your Go List!</p> --}}
+<form method="GET" action="/convention/index">
+  <label for="{{this.id}}">
+    <input type="submit" value="FAVE">
+  </label>
+</form>
+
 
 <a href="/conventions/edit/{{id}}">Edit</a>
