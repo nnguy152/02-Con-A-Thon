@@ -1,1 +1,35 @@
-<h1>Hi</h1>
+<h1>Con-A-Thon</h1>
+<a href="#">Sign Up/LogIn</a>
+<section class="ten">
+  <p>
+  <ul>
+  {{#each animeCon}}
+    <li>
+      <a href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show">
+    </li>
+  {{/each}}
+  </ul>
+  </p>
+
+  <p>
+  <ul>
+  {{#each comicCon}}
+    <li>
+      <a href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show">
+    </li>
+  {{/each}}
+  </ul>
+  </p>
+
+  <p>
+  <ul>
+  {{#each gameCon}}
+    <li>
+      <a href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show">
+    </li>
+  {{/each}}
+  </ul>
+  </p>
+</section>
+
+<a href="/conventions/show">click here</a>
