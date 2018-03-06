@@ -8,5 +8,6 @@ const ConSchema = new mongoose.Schema({
   genre: String
 })
 
+// give fave true or false thing
 const Con = mongoose.model('Con', ConSchema)
 module.exports = Con

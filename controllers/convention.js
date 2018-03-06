@@ -86,6 +86,10 @@ router.get('/show/:id', (req, res) => {
   .then(con => {
     res.render('conventions/show', con)
   })
+  // .then(con => {
+  //   faveList.push(con) // WORKS
+  //   console.log(faveList)
+  // })
 })
 
 // to edit but no function yet
