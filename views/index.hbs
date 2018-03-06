@@ -17,21 +17,57 @@
     <ul>
       <h3>Anime</h3>
       {{#each animeCon}}
-        <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show"></li>
+        {{!-- <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show"></li> --}}
+        <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
+        <div id="popup{{this.id}}" class="overlay">
+            <div class="popup">
+              <a class="close" href="#"></a>
+              <ul class="content">
+                <li>{{this.name}}</li>
+                <li>{{this.date}}</li>
+                <li>{{this.location}}</li>
+                <li><a href="{{this.url}}">Visit their Website</a></li>
+              </ul>
+            </div>
+          </div>
       {{/each}}
     </ul>
 
     <ul>
       <h3>Comic</h3>
       {{#each comicCon}}
-        <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show"></li>
+        {{!-- <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a></li> --}}
+        <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
+          <div id="popup{{this.id}}" class="overlay">
+            <div class="popup">
+              <a class="close" href="#"></a>
+              <ul class="content">
+                <li>{{this.name}}</li>
+                <li>{{this.date}}</li>
+                <li>{{this.location}}</li>
+                <li><a href="{{this.url}}">Visit their Website</a></li>
+              </ul>
+            </div>
+          </div>
       {{/each}}
     </ul>
 
     <ul>
       <h3>Game</h3>
       {{#each gameCon}}
-        <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show"></li>
+        {{!-- <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a></li> --}}
+          <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
+          <div id="popup{{this.id}}" class="overlay">
+            <div class="popup">
+              <a class="close" href="#"></a>
+              <ul class="content">
+                <li>{{this.name}}</li>
+                <li>{{this.date}}</li>
+                <li>{{this.location}}</li>
+                <li><a href="{{this.url}}">Visit their Website</a></li>
+              </ul>
+            </div>
+          </div>
       {{/each}}
     </ul>
   </section>
