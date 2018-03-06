@@ -7,7 +7,6 @@ const passport = require('passport')
 const session = require('express-session')
 
 const conController = require('./controllers/convention')
-// const userController = require('./controllers/user')
 
 const app = express()
 app.set('view engine', 'hbs')
@@ -36,7 +35,6 @@ app.use(function (req, res, next) {
 })
 
 app.use('/conventions', conController)
-// app.use('/users', userController)
 
 app.set('port', process.env.PORT || 3000)
 
