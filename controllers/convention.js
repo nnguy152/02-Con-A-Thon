@@ -69,9 +69,9 @@ router.post('/', (req, res) => {
 //   })
 // })
 
-// router.delete('/:id', (req, res) => {
-//   Con.findOneAndRemove({_id: req.params.id}).then(() => res.redirect('conventions/index'))
-// })
+router.delete('/:id', (req, res) => {
+  Con.findOneAndRemove({_id: req.params.id}).then(() => res.redirect('index'))
+})
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // log in/signup/logout
