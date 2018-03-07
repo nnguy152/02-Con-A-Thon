@@ -9,13 +9,16 @@
 <div class="ten-container">
 <h1 class="ten-header">Profile</h1>
   <div class="my-con">
-    <ul style='height: 400px;'>
+    {{!-- <div class="calendar" style='width:300px;border:2px black solid;height:225px;overflow:hidden;float:right;'>
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%232952A3&amp;src=%23contacts%40group.v.calendar.google.com&amp;color=%2328754E&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" width="300" height="250" frameborder="0" scrolling="no"></iframe>    
+    </div> --}}
+    <ul class="my-cons-list">
       {{#each con}}
         <li><a href="#popup{{this.id}}">{{this.name}}</a></li>
 
-        <div id="popup{{this.id}}" class="overlay">
-          <div class="popup">
-            <a class="close" href="index"></a>
+        <div id="popup{{this.id}}" class="overlay" style="background:none;">
+          <div class="popup my-con-edit">
+            <a class="xed" href="#">&times;</a>
             <ul class="content">
               <li>{{this.name}}</li>
               <li>{{this.date}}</li>

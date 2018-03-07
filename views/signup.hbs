@@ -9,11 +9,9 @@
 <div class="ten-container">
 <h1>Signup</h1>
 
-{{!-- {{#if message}}
+{{#if message}}
   <div class="alert alert-danger">{{message}}</div>
-{{else}}
-  <div>Hey!  {{message}}</div>
-{{/if}} --}}
+{{/if}}
 
 <form method="post" action="/conventions/signup">
   <div class="form-group">
@@ -26,6 +24,7 @@
     <input class="form-control" type="password" name="password" id="password">
   </div>
 
-  <input class="btn btn-default" type="submit">
+  {{!-- <input class="btn btn-default" type="submit"> --}}
+  <button disabled>Submit</button>
 </form> 
 </div>

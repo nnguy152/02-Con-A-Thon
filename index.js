@@ -14,16 +14,17 @@ app.use(parser.urlencoded({extended: true}))
 app.use(methodOverride('_method'))
 app.use(express.static('public'))
 
+// app.use(flash())
 // require('./config/passport')(passport)
 // app.use(passport.initialize())
 // app.use(passport.session())
+
 // app.use(session({
 //   secret: 'O_O',
 //   resave: false,
 //   saveUninitialized: true,
 //   cookie: { secure: true }
 // }))
-// app.use(flash())
 
 app.get('/', (req, res) => {
   res.render('index')

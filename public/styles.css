@@ -77,6 +77,16 @@ img {
   width: 250px;
   position: static;
 }
+.my-con-edit {
+  border:2px black solid;
+  background:none;
+  margin-top: 217px;
+  margin-right: 12%;
+  border-radius: 0;
+  height: 380px;
+  width: 55%;
+  float: right;
+}
 .popup .close {
   position: absolute;
   left: -150px;
@@ -85,6 +95,14 @@ img {
   height: 500%;
   width: 600%;
   border: 5px dotted green;
+}
+.popup .xed {
+  position: sticky;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 98%;
+  color: black;
 }
 .content {
   margin: auto;
@@ -165,11 +183,19 @@ footer {
   position: sticky;
   padding-top: 15px;
 }
+.my-cons-list {
+  height: 400px;
+}
+
 @media screen and (max-width: 1240px) {
   .conthon {
     font-size: 40px;
     width: 70%;
     height: 45px;
+  }
+  .my-con-edit {
+    margin-top: 200px;
+    width: 45%;
   }
   .about {
     font-size: 15px;

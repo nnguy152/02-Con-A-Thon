@@ -13,10 +13,10 @@ const ConSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  description: String,
   url: String,
   genre: String
 })
 
-// give fave true or false thing
 const Con = mongoose.model('Con', ConSchema)
 module.exports = Con
