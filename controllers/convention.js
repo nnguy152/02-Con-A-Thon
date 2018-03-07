@@ -49,25 +49,25 @@ router.post('/', (req, res) => {
 // "save" convention to display on profile page
 // add "save" button -when clicked, pushes convention into array
 // then in profile page, displays array^ router up there^^^
-var faveList = []
-router.get('/', (req, res) => {
-  Con.findOne({_id: req.params.id})
-  .then(con => {
-    faveList.push(con) // WORKS
-    console.log(faveList)
-  })
-  .then(faveList => {
-    res.render('conventions/index', faveList)
-  })
-})
+// var faveList = []
+// router.get('/', (req, res) => {
+//   Con.findOne({_id: req.params.id})
+//   .then(con => {
+//     faveList.push(con) // WORKS
+//     console.log(faveList)
+//   })
+//   .then(faveList => {
+//     res.render('conventions/index', faveList)
+//   })
+// })
 
 // to edit but no function yet
 // should only be able to edit conventions that users self input
-router.get('/edit/:id', (req, res) => {
-  Con.findOne({_id: req.params.id}).then(con => {
-    res.render('conventions/edit', con)
-  })
-})
+// router.get('/edit/:id', (req, res) => {
+//   Con.findOne({_id: req.params.id}).then(con => {
+//     res.render('conventions/edit', con)
+//   })
+// })
 
 // router.delete('/:id', (req, res) => {
 //   Con.findOneAndRemove({_id: req.params.id}).then(() => res.redirect('conventions/index'))
