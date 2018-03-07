@@ -8,7 +8,7 @@
 //   }
 // })
 
-// UserSchema.methods.encrpyt = function (password) {
+// UserSchema.methods.encrypt = function (password) {
 //   return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null)
 // }
 // UserSchema.methods.validPassword = function (password) {

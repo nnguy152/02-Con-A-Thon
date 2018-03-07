@@ -1,60 +1,78 @@
 <header class="header-bg">
   <a href="/" class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</a>
   <nav class="logs">
-    {{!-- <a href='/conventions/signup' class="menu">Signup</a> --}}
-    {{!-- <a href='/conventions/login' class="menu">Login</a>--}}
-    {{!-- <a href='/conventions/logout' class="menu">Logout</a> --}}
+    <a href='#' class="menu">Logout</a>
   </nav>
   <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
 
-<h1>Hi</h1>
+<div class="ten-container">
+<h1 class="ten-header">Profile</h1>
+  <div class="my-con">
+    <ul style='height: 400px;'>
+      {{#each con}}
+        <li><a href="#popup{{this.id}}">{{this.name}}</a></li>
 
+        <div id="popup{{this.id}}" class="overlay">
+          <div class="popup">
+            <a class="close" href="index"></a>
+            <ul class="content">
+              <li>{{this.name}}</li>
+              <li>{{this.date}}</li>
+              <li>{{this.location}}</li>
+              <li><a href="{{this.url}}">Visit their Website</a></li>
+            </ul>
 
-<ul>
-  {{#each con}}
-    <li><a href="#popup{{this.id}}">{{this.name}}</a></li>
-    <div id="popup{{this.id}}" class="overlay">
-      <div class="popup">
-        <a class="close" href="index"></a>
-        <ul class="content">
-          <li>{{this.name}}</li>
-          <li>{{this.date}}</li>
-          <li>{{this.location}}</li>
-          <li><a href="{{this.url}}">Visit their Website</a></li>
-        </ul>
-        <form action="/Conventions/{{this.id}}?_method=delete" method="POST">
-          <input type="submit" value="delete">
+            <form class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">
+                <h4>Edit?</h4>
+                <p>
+                <label for="name">Name</label>
+                <input type="text" name="name" class="input">
+                <br/>
+                <label for="date">Date</label>
+                <input type="text" name="date" class="input">
+                <br/>
+                <label for="location">Location</label>
+                <input type="text" name="location" class="input">
+                <br/>
+                <label for="url">URL</label>
+                <input type="text" name="url" class="input">
+              </p>
+              <input type="submit" value="Update" class="buttons update">
+            </form>
+
+            <form action="/Conventions/{{this.id}}?_method=delete" method="POST">
+              <input type="submit" value="Delete"  class="buttons delete">
+            </form>
+
+          </div>
+        </div>
+      {{/each}}
+
+      <a href="#popup" style='vertical-align:bottom;'>Add A Con!</a>
+    </ul>
+  </div>
+
+  <div id="popup" class="overlay">
+    <div class="popup">
+      <a class="close" href="index"></a>
+        <h1>Add in Your Convention</h1>
+        <form action="/Conventions" method="POST">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" name="name" class="input">
+            <br/>
+            <label for="date">Date</label>
+            <input type="text" name="date" class="input">
+            <br/>
+            <label for="location">Location</label>
+            <input type="text" name="location" class="input">
+            <br/>
+            <label for="url">URL</label>
+            <input type="text" name="url" class="input">
+          </p>
+          <input type="submit" value="Create" class="buttons">
         </form>
-      </div>
     </div>
-  {{/each}}
-</ul>
-
-<a href="#popup">Not interested in any of the conventions listed? Add your own!</a>
-
-<div id="popup" class="overlay">
-  <div class="popup">
-    <a class="close" href="index"></a>
-      <h1>Add in Your Convention</h1>
-      <form action="/Conventions" method="POST">
-        <p>
-          <label for="name">Name</label>
-          <input type="text" name="name">
-          <br/>
-          <label for="date">Date</label>
-          <input type="text" name="date">
-          <br/>
-          <label for="location">Location</label>
-          <input type="text" name="location">
-          <br/>
-          <label for="url">URL</label>
-          <input type="text" name="url">
-          <br/>
-          <label for="genre">Anime, Comic, or Gaming?</label>
-          <input type="text" name="genre">
-        </p>
-        <input type="submit" value="Create">
-      </form>
   </div>
 </div>

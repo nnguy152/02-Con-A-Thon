@@ -27,7 +27,7 @@
 
 //         newUser.save(function (err) {
 //           if (err) throw err
-//           return callback(null, newUser)
+//           return callback(null, newUser, req.flash('signupMessage', 'Success'))
 //         })
 //       }
 //     })

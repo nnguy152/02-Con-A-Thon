@@ -1,10 +1,10 @@
 const express = require('express')
-// const flash = require('connect-flash')
 const hbs = require('hbs')
 const methodOverride = require('method-override')
 const parser = require('body-parser')
 // const passport = require('passport')
 // const session = require('express-session')
+// const flash = require('connect-flash')
 
 const conController = require('./controllers/convention')
 
@@ -12,7 +12,7 @@ const app = express()
 app.set('view engine', 'hbs')
 app.use(parser.urlencoded({extended: true}))
 app.use(methodOverride('_method'))
-// app.use(flash())
+app.use(express.static('public'))
 
 // require('./config/passport')(passport)
 // app.use(passport.initialize())
@@ -23,16 +23,17 @@ app.use(methodOverride('_method'))
 //   saveUninitialized: true,
 //   cookie: { secure: true }
 // }))
+// app.use(flash())
 
 app.get('/', (req, res) => {
   res.render('index')
   res.redirect('/conventions')
 })
 
-app.use(function (req, res, next) {
-  res.locals.currentUser = req.user
-  next()
-})
+// app.use(function (req, res, next) {
+//   res.locals.currentUser = req.user
+//   next()
+// })
 
 app.use('/conventions', conController)
 
