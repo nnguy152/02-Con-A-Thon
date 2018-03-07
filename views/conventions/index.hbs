@@ -2,9 +2,8 @@
   <a href="/" class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</a>
   <nav class="logs">
     {{!-- <a href='/conventions/signup' class="menu">Signup</a> --}}
-    {{!-- <a href='/conventions/login' class="menu">Login</a>
-    <a href='/conventions/logout' class="menu">Logout</a>--}}
-    <a href='/conventions/index' class="menu">Profile</a> 
+    {{!-- <a href='/conventions/login' class="menu">Login</a>--}}
+    {{!-- <a href='/conventions/logout' class="menu">Logout</a> --}}
   </nav>
   <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
@@ -24,9 +23,9 @@
           <li>{{this.location}}</li>
           <li><a href="{{this.url}}">Visit their Website</a></li>
         </ul>
-        <form action="/Convention/{{id}}?_method=delete" method="POST">
+        {{!-- <form action="/Convention/{{id}}?_method=delete" method="POST">
           <input type="submit" value="delete">
-        </form>
+        </form> --}}
       </div>
     </div>
   {{/each}}

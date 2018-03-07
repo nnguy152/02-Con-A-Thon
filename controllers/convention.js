@@ -1,6 +1,5 @@
 const express = require('express')
 const router = express.Router()
-const passport = require('passport')
 
 const Con = require('../models/Convention')
 
@@ -70,37 +69,37 @@ router.get('/edit/:id', (req, res) => {
   })
 })
 
-router.delete('/:id', (req, res) => {
-  Con.findOneAndRemove({_id: req.params.id}).then(() => res.redirect('conventions/index'))
-})
+// router.delete('/:id', (req, res) => {
+//   Con.findOneAndRemove({_id: req.params.id}).then(() => res.redirect('conventions/index'))
+// })
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // log in/signup/logout
-router.get('/signup', (req, res) => {
-  res.render('signup', {message: req.flash('signupMessage')})
-})
-router.post('/signup', (req, res) => {
-  var signupStrategy = passport.authenticate('local-signup', {
-    successRedirect: '/',
-    failureRedirect: '/signup',
-    failureFlash: true
-  })
-  return signupStrategy(req, res)
-})
-router.get('/login', (req, res) => {
-  res.render('login', {message: req.flash('loginMessage')})
-})
-router.post('/login', (req, res) => {
-  var loginProperty = passport.authenticate('local-login', {
-    successRedirect: '/',
-    failureRedirect: '/login',
-    failureFlash: true
-  })
-  return loginProperty(req, res)
-})
-router.get('/logout', (req, res) => {
-  req.logout()
-  res.redirect('/')
-})
+// router.get('/signup', (req, res) => {
+//   res.render('signup', {message: req.flash('signupMessage')})
+// })
+// router.post('/signup', (req, res) => {
+//   var signupStrategy = passport.authenticate('local-signup', {
+//     successRedirect: '/',
+//     failureRedirect: '/signup',
+//     failureFlash: true
+//   })
+//   return signupStrategy(req, res)
+// })
+// router.get('/login', (req, res) => {
+//   res.render('login', {message: req.flash('loginMessage')})
+// })
+// router.post('/login', (req, res) => {
+//   var loginProperty = passport.authenticate('local-login', {
+//     successRedirect: '/',
+//     failureRedirect: '/login',
+//     failureFlash: true
+//   })
+//   return loginProperty(req, res)
+// })
+// router.get('/logout', (req, res) => {
+//   req.logout()
+//   res.redirect('/')
+// })
 
 module.exports = router
