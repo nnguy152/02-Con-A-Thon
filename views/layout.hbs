@@ -23,7 +23,7 @@
       font-size: 50px;
       margin: 0 auto;
       padding-bottom: -10px;
-      width: 90%;
+      width: 40%;
       height: 60px;
       text-align: left;
       float:left;
@@ -84,23 +84,30 @@
       padding: 10px;
       background: white;
     }
+    .menu {
+    text-shadow: 0 1px white;
+    font-size:18px;
+    }
     body {
       font-family: 'Ubuntu', sans-serif;
+      background: lightgrey;
     }
     .ten-container {
-      border: 2px solid black;
+      position: static;
       text-align: center;
       width: 800px;
-      margin: 50px 25% 10px;
+      margin: 0 15%;
+      padding: 20px 10% 10px;
+      z-index: -1;
+      background: white;
     }
     .ten {
-      border: 2px solid black;
       display: flex;
       justify-content: center;
       flex-direction: row;
     }
     ul {
-      border: 2px solid green;
+      border: 2px solid black;
       list-style-type: none;
       padding: 0 30px;
       width: 200px;
@@ -116,8 +123,8 @@
       color: black;
     }
     footer {
-      margin-top: 30px;
-      text-align: center;
+      position: static;
+      margin: 30px 41% 0;
       font-size: 12px;
     }
   </style>

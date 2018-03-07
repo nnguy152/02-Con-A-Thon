@@ -1,10 +1,10 @@
 <header class="header-bg">
   <h1 class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</h1>
   <nav class="logs">
-    <a href='/conventions/signup' style="text-shadow: 0 1px white;font-size:17px;">Signup</a>
-    {{!-- <a href='/conventions/login'>Login</a>
-    <a href='/conventions/logout'>Logout</a>--}}
-    <a href='/conventions/index'>Profile</a> 
+    <a href='/conventions/signup' class="menu">Signup</a>
+    {{!-- <a href='/conventions/login' class="menu">Login</a>
+    <a href='/conventions/logout' class="menu">Logout</a>--}}
+    <a href='/conventions/index' class="menu">Profile</a> 
   </nav>
   <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
@@ -17,7 +17,6 @@
     <ul>
       <h3>Anime</h3>
       {{#each animeCon}}
-        {{!-- <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a href="/conventions/show"></li> --}}
         <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
         <div id="popup{{this.id}}" class="overlay">
             <div class="popup">
@@ -41,7 +40,6 @@
     <ul>
       <h3>Comic</h3>
       {{#each comicCon}}
-        {{!-- <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a></li> --}}
         <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
           <div id="popup{{this.id}}" class="overlay">
             <div class="popup">
@@ -65,9 +63,8 @@
     <ul>
       <h3>Game</h3>
       {{#each gameCon}}
-        {{!-- <li><a class="cons-list" href="/conventions/show/{{this.id}}">{{this.name}}</a></li> --}}
-          <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
-          <div id="popup{{this.id}}" class="overlay">
+        <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
+        <div id="popup{{this.id}}" class="overlay">
             <div class="popup">
               <a class="close" href="#"></a>
               <ul class="content">
@@ -82,7 +79,7 @@
                 </label>
               </form>
             </div>
-          </div>
+          </div>  
       {{/each}}
     </ul>
   </section>

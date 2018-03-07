@@ -1,7 +1,5 @@
 const express = require('express')
 const router = express.Router()
-const parser = require('body-parser')
-const methodOverride = require('method-override')
 const passport = require('passport')
 
 const Con = require('../models/Convention')
@@ -27,24 +25,26 @@ router.get('/', (req, res) => {
 // display this convention array on profile page
 // PROFILE page
 router.get('/index', (req, res) => {
-  res.render('conventions/index')
+  Con.find({__v: 0}).then(con => res.render('conventions/index', { con }))
 })
 
 // NEW page. For users to add their own conventions
-router.get('/new', (req, res) => {
-  res.render('conventions/new')
-})
-// for users to add their own convention in
-// router.post('/', (req, res) => {
-//   Con.create({
-//     name: req.body.name,
-//     date: req.body.date,
-//     location: req.body.location,
-//     url: req.body.url,
-//     genre: req.body.genre
-//   })
-//   .then(() => res.redirect('conventions/index'))
+// not needed since I made a popup
+// router.get('/new', (req, res) => {
+//   res.render('conventions/new')
 // })
+// for users to add their own convention in
+
+router.post('/', (req, res) => {
+  Con.create({
+    name: req.body.name,
+    date: req.body.date,
+    location: req.body.location,
+    url: req.body.url,
+    genre: req.body.genre
+  })
+  .then(() => res.redirect('conventions/index'))
+})
 
 // Shows more details about each convention
 // "save" convention to display on profile page
@@ -68,6 +68,10 @@ router.get('/edit/:id', (req, res) => {
   Con.findOne({_id: req.params.id}).then(con => {
     res.render('conventions/edit', con)
   })
+})
+
+router.delete('/:id', (req, res) => {
+  Con.findOneAndRemove({_id: req.params.id}).then(() => res.redirect('conventions/index'))
 })
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
