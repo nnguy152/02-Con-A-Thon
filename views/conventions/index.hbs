@@ -9,10 +9,13 @@
 
 <div class="ten-container">
 <h1 class="ten-header">Profile</h1>
+<div class="line"></div>
   <div class="my-con">
     <ul class="my-cons-list">
+      <h3 class="ten-list-header">Cons To-Go-To</h3>
+      <div class="mini-line"></div>
       {{#each con}}
-        <li><a href="#popup{{this.id}}">{{this.name}}</a></li>
+        <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
 
         <div id="popup{{this.id}}" class="overlay" style="background:none;">
           <div class="popup my-con-edit">
