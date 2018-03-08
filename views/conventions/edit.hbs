@@ -1,1 +1,22 @@
-<h1>Comment!</h1>
+<div class="displayed">
+<header class="header-bg">
+  <a href="/" class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</a>
+  <nav class="logs">
+    <a class="nav-links" href='/conventions/index'><img src="/profile.png" style="width:35px;vertical-align: -10px;"></a> 
+    <a href='/conventions' class="menu nav-links">Logout</a>
+  </nav>
+  <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
+</header>
+
+<main class="ten-container" style="">
+  <h2 class="ten-header">Notes for {{this.name}}</h2>
+  <div class="line"></div>
+  <section style="text-align:left;padding-top: 30px;word-wrap: break-word;word-break: break-all;height: 60vh;">{{this.description}}</section>
+              <form class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">
+                <p>
+                  <label for="description">Notes</label>
+                  <textarea style="width:700px;" value="{{this.description}}" type="text" name="description" class="input text-box"></textarea>
+                </p>
+                <input type="submit" value="Update" class="buttons update">
+              </form>
+</main>

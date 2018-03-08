@@ -2,7 +2,6 @@ const express = require('express')
 const router = express.Router()
 const passport = require('passport')
 const Con = require('../models/Convention')
-// const User = require('../models/User')
 
 // displays top ten conventions on homepage
 router.get('/', (req, res) => {
@@ -25,8 +24,9 @@ router.get('/index', (req, res) => {
   Con.find({__v: 0}).then(con => res.render('conventions/index', { con }))
 })
 
-router.get('/edit', (req, res) => {
-  res.render('conventions/edit')
+router.get('/edit/:id', (req, res) => {
+  Con.findOne({_id: req.params.id})
+  .then(con => res.render('conventions/edit', con))
 })
 
 router.post('/', (req, res) => {
@@ -40,7 +40,6 @@ router.post('/', (req, res) => {
   .then(() => res.redirect('conventions/index'))
 })
 
-// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // log in/signup/logout
 router.get('/signup', (req, res) => {
   res.render('signup'
@@ -72,7 +71,6 @@ router.get('/logout', (req, res) => {
   req.logout()
   res.redirect('/')
 })
-// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 router.get('/:id', (req, res) => {
   Con.findOne({_id: req.params.id})
@@ -80,7 +78,8 @@ router.get('/:id', (req, res) => {
 })
 
 router.put('/:id', (req, res) => {
-  Con.findOneAndUpdate({_id: req.params.id}, req.body).then(() => {
+  Con.findOneAndUpdate({_id: req.params.id}, req.body)
+  .then(() => {
     res.redirect('index')
   })
 })
@@ -90,19 +89,4 @@ router.delete('/:id', (req, res) => {
   .then(() => res.redirect('index'))
 })
 
-// router.put('/:id', (req, res) => {
-//   Con.findOneAndUpdate({_id: req.params.id}, req.body)
-//   .then(() => {
-//     res.redirect('conventions/index')
-//   })
-// })
-
-// db.coll.insert({_id: 'hi', val: 1})
-// > var orig = db.coll.findOne({_id: 'hi'})
-// > orig._id = 'bye'
-// bye
-// > db.coll.insert(orig)
-// > db.coll.find()
-// { "_id" : "hi", "val" : 1 }
-// { "_id" : "bye", "val" : 1 }
 module.exports = router

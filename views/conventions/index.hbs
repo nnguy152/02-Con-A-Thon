@@ -25,26 +25,24 @@
                 <li><span>Name:</span><a href="{{this.url}}">{{this.name}}</a></li>
                 <li><span>When:</span>{{this.date}}</li>
                 <li><span>Where:</span>{{this.location}}</li>
+                <li style="text-align:left;word-wrap: break-word;word-break: break-all;"><span style="padding-right: 15px">Notes:</span><div style="overflow: scroll;height: 250px;">{{this.description}}</div></li>
               </ul>
-
               <form class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">
                   <h4>Edit</h4>
                   <p>
                   <label for="name">Name</label>
-                  <input type="text" name="name" class="input text-box">
+                  <input type="text" value="{{this.name}}" name="name" class="input text-box">
                   <br/>
                   <label for="date">Date</label>
-                  <input type="text" name="date" class="input text-box">
+                  <input type="text" value="{{this.date}}" name="date" class="input text-box">
                   <br/>
                   <label for="location">Location</label>
-                  <input type="text" name="location" class="input text-box">
+                  <input type="text" value="{{this.location}}" name="location" class="input text-box">
                   <br/>
                   <label for="url">URL</label>
-                  <input type="text" name="url" class="input text-box">
-                  <br/>
-                  <label for="description">Notes</label>
-                  <input type="text" name="description" class="input text-box">
+                  <input type="text" value="{{this.url}}" name="url" class="input text-box">
                 </p>
+                <h4><button class="buttons" style="color:white;text-decoration:none;width:90px;height:25px;font-size:15px;" href="edit/{{this.id}}">Notes!</button></h4>
                 <input type="submit" value="Update" class="buttons update">
               </form>
 
@@ -67,7 +65,7 @@
           <form action="/Conventions" method="POST">
             <p>
               <label for="name">Name</label>
-              <input type="text" name="name" class="input">
+              <input type="text" name="name" class="input" required>
               <br/>
               <label for="date">Date</label>
               <input type="text" name="date" class="input">
