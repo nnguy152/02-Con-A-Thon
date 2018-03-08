@@ -80,10 +80,14 @@ img {
 .join {
   width: 300px;
   padding: 20px 0 3px 0;
+  margin-left: 12px;
   font-size: 20px;
   border: none;
   border-bottom: 1px #072083 solid;
   outline: none;
+}
+.pass {
+  width: 270px;
 }
 .ten-header {
   font-size: 35px;
@@ -136,6 +140,18 @@ form p {
   background: #072083;
   color: white;
   height: 20px;
+}
+.btn {
+  margin: 50px 25%;
+  font-size: 20px;
+  height: 35px;
+}
+.add {
+  border: 1px #072083 solid;
+  background: #072083;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
 }
 .update {
   float: right;
@@ -212,6 +228,8 @@ form h4 {
 .content li span a {
   padding-top: 15px;
 }
+
+/* smaller screen */
 @media screen and (max-width: 1240px) {
   .conthon {
     font-size: 40px;
