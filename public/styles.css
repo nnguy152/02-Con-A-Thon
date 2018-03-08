@@ -25,6 +25,10 @@ img {
   color: white;
   text-shadow: 3px 2px #072083;
 }
+.conthon:hover {
+  color:#072083;
+  text-shadow: 3px 2px white;
+}
 .about {
   color: white;
   width: 600px;
@@ -190,7 +194,7 @@ form h4 {
   padding-bottom: 20px;
   background:#F85B1A;
   border-radius: 5px;
-  width: 250px;
+  width: 500px;
   position: static;
 }
 .my-con-edit {

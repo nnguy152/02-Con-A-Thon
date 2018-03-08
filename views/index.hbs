@@ -15,7 +15,7 @@
     <div class="line"></div>
     <h4>No, this isn't for conning people. （•‿•）</h4>
     <p>This is a convention trip planning website. 
-      We have a list of 30 popular anime, comic, and gaming conventions around the USA
+      We have a list of 30 popular anime, comic, and gaming conventions of 2018 around the USA
       if you don't know where to start.</p>
       <p>Otherwise, you can signup and start planning your trips! </p>
   </section>
@@ -36,7 +36,7 @@
               <ul class="content">
                 <li><span>Name:</span> {{this.name}}</li>
                 <li><span>When:</span> {{this.date}}</li>
-                <li><span>Where:</span> {{this.location}}</li>
+                <iframe src="{{this.location}}" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <li><a href="{{this.url}}">Visit their Website!</a></li>
               </ul>
 
@@ -59,7 +59,8 @@
               <ul class="content">
                 <li><span>Name:</span> {{this.name}}</li>
                 <li><span>When:</span> {{this.date}}</li>
-                <li><span>Where:</span> {{this.location}}</li>
+                <iframe src="{{this.location}}" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <li><span>Where:</span>{{this.description}}</li>
                 <li><a href="{{this.url}}">Visit their Website</a></li>
               </ul>
             </div>
@@ -78,7 +79,7 @@
               <ul class="content">
                 <li><span>Name:</span> {{this.name}}</li>
                 <li><span>When:</span> {{this.date}}</li>
-                <li><span>Where:</span> {{this.location}}</li>
+                <iframe src="{{this.location}}" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <li><a href="{{this.url}}">Visit their Website</a></li>
               </ul>
             </div>

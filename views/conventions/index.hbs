@@ -2,7 +2,7 @@
 <header class="header-bg">
   <a href="/" class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</a>
   <nav class="logs">
-    <a href='/conventions' class="menu">Logout</a>
+    <a href='/conventions' class="menu nav-links">Logout</a>
   </nav>
   <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
@@ -16,58 +16,15 @@
         <h3 class="ten-list-header">Cons To-Go-To</h3>
           <div class="mini-line"></div>
         {{#each con}}
-          {{!-- <input class="helper-trigger" type="checkbox" id="{{this.name}}" name="{{this.name}}"/>
-          
-          <div class="helper-show">
-            <ul class="content">
-              <li>{{this.name}}</li>
-              <li>{{this.date}}</li>
-              <li>{{this.location}}</li>
-              <li>{{this.description}}</li>
-              <li><a href="{{this.url}}">Visit their Website</a></li>
-            </ul>
-            
-
-            <label class="btn btn-link" for="{{this.name}}"> 
-              <u class="x">&times;</u>
-            </label>
-
-            <form class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">
-              <h4>Edit?</h4>
-              <p>
-                <label for="name">Name</label>
-                <input type="text" name="name" class="input">
-                <br/>
-                <label for="date">Date</label>
-                <input type="text" name="date" class="input">
-                <br/>
-                <label for="location">Location</label>
-                <input type="text" name="location" class="input">
-                <br/>
-                <label for="url">URL</label>
-                <input type="text" name="url" class="input">
-                <br/>
-                <label for="description">Notes</textarea>
-                <input type="text" name="description" class="input">
-              </p>
-              <input type="submit" value="Update" class="buttons update">
-            </form>
-            <form action="/Conventions/{{this.id}}?_method=delete" method="POST">
-              <input type="submit" value="Delete"  class="buttons delete">
-            </form>
-          </div>
-
-          <label class="btn btn-default helper-hide" for="{{this.name}}">{{this.name}}</label> --}}
-
           <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
 
           <section id="popup{{this.id}}" class="overlay" style="background:none;">
             <div class="popup my-con-edit">
               <a class="x" href="#">&times;</a>
               <ul class="content">
-                <li><a href="{{this.url}}">{{this.name}}</a></li>
-                <li>{{this.date}}</li>
-                <li>{{this.location}}</li>
+                <li><span>Name:</span><a href="{{this.url}}">{{this.name}}</a></li>
+                <li><span>When:</span>{{this.date}}</li>
+                <li><span>Where:</span>{{this.location}}</li>
               </ul>
 
               <form class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">

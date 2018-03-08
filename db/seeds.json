@@ -1,211 +1,212 @@
 [
   {
     "name": "Anime Expo",
-    "date": "July",
-    "location": "Los Angeles, CA",
+    "date": "Thursday, July 5 - Sunday, July 8",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13224.553608104117!2d-118.2695624!3d34.0403207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf629c020e23429b5!2sLos+Angeles+Convention+Center!5e0!3m2!1sen!2sus!4v1520517469802",
     "url": "http://www.anime-expo.org",
     "genre": "anime"
   },
   {
     "name": "Anime Matsuri",
-    "date": "April",
-    "location": "Houston, TX",
+    "date": "Friday, March 30 - Sunday, April 1",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13855.526044703358!2d-95.3578364!3d29.7521422!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1c30f943271a3ed9!2sGeorge+R.+Brown+Convention+Center!5e0!3m2!1sen!2sus!4v1520517879306",
     "url": "https://www.animematsuri.com",
     "genre": "anime"
   },
   {
     "name": "A-Kon",
-    "date": "June",
-    "location": "Fort Worth, TX",
+    "date": "Friday, June 8 - Sunday, June 10",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13422.38824943945!2d-97.3280004!3d32.7498885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4563a208b918535!2sFort+Worth+Convention+Center!5e0!3m2!1sen!2sus!4v1520518319985",
     "url": "https://www.a-kon.com",
     "genre": "anime"
   },
   {
     "name": "Anime Weekend Atlanta",
-    "date": "September",
-    "location": "Atlanta, GA",
+    "date": "Thursday, September 20 - Sunday, September 23",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13248.984318562594!2d-84.4665728!3d33.8833157!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5dda1491eee71639!2sCobb+Galleria+Centre!5e0!3m2!1sen!2sus!4v1520518430586",
     "url": "https://awa-con.com",
     "genre": "anime"
   },
   {
     "name": "Anime Central",
-    "date": "May",
-    "location": "Rosemont, IL",
+    "date": "Friday, May 18 - Sunday, May 20",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11863.879417588549!2d-87.8617889!3d41.979457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf59638d2764bf12b!2sDonald+E+Stephens+Convention+Center!5e0!3m2!1sen!2sus!4v1520518570437",
     "url": "http://www.acen.org",
     "genre": "anime"
   },
   {
     "name": "Anime Boston",
-    "date": "March",
-    "location": "Boston, MA",
+    "date": "Friday, March 30 - Sunday, April 1",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11795.08555280017!2d-71.0841667!3d42.3473972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbce6f9a63000697b!2sJohn+B.+Hynes+Veterans+Memorial+Convention+Center!5e0!3m2!1sen!2sus!4v1520518645166",
     "url": "http://animeboston.com",
     "genre": "anime"
   }, 
   {
     "name": "Sakura-Con",
-    "date": "April",
-    "location": "Seattle, WA",
+    "date": "Friday, March 30 - Sunday, April 1",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10758.963655457526!2d-122.332914!3d47.6117273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1520518702030",
     "url": "http://sakuracon.org",
     "genre": "anime"
   },
   {
     "name": "Otakon",
-    "date": "August",
-    "location": "Washington, DC",
+    "date": "Friday, August 10 - Sunday, August 12",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12419.34079656451!2d-77.0229934!3d38.9048838!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32771de147fa5350!2sWalter+E.+Washington+Convention+Center!5e0!3m2!1sen!2sus!4v1520518814126",
     "url": "https://www.otakon.com",
     "genre": "anime"
   },  
   {
     "name": "Youmacon",
-    "date": "November",
-    "location": "Detroit, MI",
+    "date": "Thursday, November 1 - Sunday, November 4",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11798.475260743395!2d-83.0397632!3d42.3293284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x375de7ff6eaaa6c1!2sGM+Renaissance+Center!5e0!3m2!1sen!2sus!4v1520518930080",
     "url": "http://www.youmacon.com",
     "genre": "anime"
   },
   {
     "name": "Anime NYC",
-    "date": "November",
-    "location": "New York, NY",
+    "date": "Friday, November 16 - Sunday, November 18",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12088.813761283827!2d-74.002469!3d40.75755!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e2a97ed4d973e3a!2sAnime+NYC!5e0!3m2!1sen!2sus!4v1520519003793",
     "url": "http://animenyc.com",
     "genre": "anime"
   },
   {
     "name": "San Diego Comic Con",
-    "date": "July",
-    "location": "San Diego, CA",
+    "date": "Thursday, July 19 - Sunday, July 22",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13428.826386321696!2d-117.1624983!3d32.7071375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x568846370a748ca5!2sSan+Diego+Convention+Center!5e0!3m2!1sen!2sus!4v1520519112280",
     "url": "http://comic-cons.xyz/event/san-diego-comic-con-international-california/",
     "genre": "comic"
   },
   {
     "name": "New York Comic Con",
-    "date": "October",
-    "location": "New York, NY",
+    "date": "Thursday, October 4 - Sunday, October 7",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12088.77248152883!2d-74.002591!3d40.757777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1589156bdadde83!2sJacob+K.+Javits+Convention+Center!5e0!3m2!1sen!2sus!4v1520519218487",
     "url": "http://comic-cons.xyz/event/new-york-comic-con/",
     "genre": "comic"
   },
   {
     "name": "Emerald City Comicon",
-    "date": "March",
-    "location": "Seattle, WA",
+    "date": "Wednesday, March 14 - Saturday, March 17",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10758.963655457526!2d-122.332914!3d47.6117273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1520519322905",
     "url": "http://comic-cons.xyz/event/emerald-city-comicon-seattle-washington/",
     "genre": "comic"
   },
   {
     "name": "Denver Comic Con",
-    "date": "June",
-    "location": "Denver, CO",
+    "date": "Friday, June 15 - Sunday, June 17",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12270.733307752751!2d-104.9948641!3d39.7467637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ff446cf2483d54d!2sCourtyard+by+Marriott+Denver+Downtown!5e0!3m2!1sen!2sus!4v1520519435162",
     "url": "http://comic-cons.xyz/event/denver-comic-con-colorado/",
     "genre": "comic"
   },
   {
     "name": "Phoenix Comicon",
-    "date": "May",
-    "location": "Phoenix, AZ",
+    "date": "Thursday, May 24 - Sunday, May 27",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13315.930531097169!2d-112.070973!3d33.449759!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf35f15fd49dfcb38!2sPhoenix+Convention+Center!5e0!3m2!1sen!2sus!4v1520519553416",
     "url": "http://comic-cons.xyz/event/phoenix-comicon-arizona/",
     "genre": "comic"
   },
   {
     "name": "Wondercon",
-    "date": "March",
-    "location": "Anaheim, CA",
+    "date": "Friday, March 23 - Sunday, March 25",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13261.804124821207!2d-117.9208732!3d33.8006719!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3eb2a2ba13672914!2sAnaheim+Convention+Center!5e0!3m2!1sen!2sus!4v1520519608621",
     "url": "https://www.comic-con.org/wca",
     "genre": "comic"
   },
   {
     "name": "Heroes Con",
-    "date": "June",
-    "location": "Charlotte, NC",
+    "date": "Friday, June 15 - Sunday, June 17",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13037.332092553834!2d-80.8460974!3d35.2230791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb5a5240cc4f7acc!2sCharlotte+Convention+Center!5e0!3m2!1sen!2sus!4v1520519666451",
     "url": "https://www.heroesonline.com/heroescon/",
     "genre": "comic"
   },
   {
     "name": "Chicago Comic and Entertainment Expo (C2E2)",
-    "date": "April",
-    "location": "Chicago, IL",
+    "date": "Friday, April 6 - Sunday, April 8",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.9772548118226!2d-87.61820023455975!3d41.850316379224374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2b81194afbbb%3A0xd77ae2b2f53ec9c5!2sMcCormick+Place+-+South+Building%2C+Chicago%2C+IL+60616!5e0!3m2!1sen!2sus!4v1520519740129",
     "url": "http://www.c2e2.com",
     "genre": "comic"
   },
   {
     "name": "Megacon",
-    "date": "May",
-    "location": "Orlando, FL",
+    "date": "Thursday, May 24 - Sunday, May 27",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14035.284659191859!2d-81.4695163!3d28.4246526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2feec9271ed22c5b!2sOrange+County+Convention+Center!5e0!3m2!1sen!2sus!4v1520519832277",
     "url": "http://megaconorlando.com",
     "genre": "comic"
   },
   {
     "name": "Dragon Con",
-    "date": "August",
-    "location": "Atlanta, GA",
+    "date": "Thursday, August 30 - Monday, September 3",
+    "location": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1658.5108269304205!2d-84.38659964759077!3d33.76010630298767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHyatt+Regency+Atlanta%2C+Atlanta+Hilton%2C+Sheraton+Atlanta%2C+Atlanta+Marriott+Marquis%2C+Westin+Peachtree+Plaza+Hotel!5e0!3m2!1sen!2sus!4v1520521393045",
+    "description": "Hyatt Regency Atlanta, Atlanta Hilton, Sheraton Atlanta, Atlanta Marriott Marquis, Westin Peachtree Plaza Hotel - Atlanta, GA",
     "url": "http://www.dragoncon.org",
     "genre": "comic"
   },
   {
     "name": "PAX West",
-    "date": "September",
-    "location": "Seattle, WA",
+    "date": "Saturday, September 1 - Tuesday, September 4",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10758.963655457526!2d-122.332914!3d47.6117273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x38d32c762126bc69!2sWashington+State+Convention+Center!5e0!3m2!1sen!2sus!4v1520521810506",
     "url": "http://west.paxsite.com",
     "genre": "gaming"
   },
   {
     "name": "PAX East",
-    "date": "April",
-    "location": "Boston, MA",
+    "date": "Thursday, April 5 - Sunday, April 8",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.76767101456!2d-71.04676978427929!3d42.34747644388828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a817c440cf5%3A0x2c611a8552d64981!2sBoston+Convention+and+Exhibition+Center!5e0!3m2!1sen!2sus!4v1520521893155",
     "url": "http://east.paxsite.com",
     "genre": "gaming"
   },
   {
     "name": "GoPlay Northwest",
-    "date": "July",
-    "location": "Seattle, WA",
+    "date": "Friday, July 6 - Sunday, July 8",
+    "location": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d21509.550703069162!2d-122.32870421247644!3d47.63208233825174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSeattle+University!5e0!3m2!1sen!2sus!4v1520521980099",
     "url": "http://www.goplaynw.org",
     "genre": "gaming"
   },
   {
     "name": "Gen Con",
-    "date": "July",
-    "location": "Indianapolis, IN",
+    "date": "Thursday, August 2 - Sunday, August 5",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12267.567534297257!2d-86.1641401!3d39.7645358!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf9f4c9109116222c!2sIndiana+Convention+Center!5e0!3m2!1sen!2sus!4v1520522124484",
     "url": "https://www.gencon.com",
     "genre": "gaming"
   },
   {
     "name": "IndieCade",
-    "date": "October",
-    "location": "Los Angeles, CA",
+    "date": "Friday, February 16 - Sunday, February 18",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.258019604219!2d-73.92613828431458!3d40.75634944283754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25f2550f21f03%3A0x58db958504446c43!2sMuseum+of+the+Moving+Image!5e0!3m2!1sen!2sus!4v1520523036948",
     "url": "http://www.indiecade.com",
     "genre": "gaming"
   },
   {
     "name": "Origins Game Fair",
-    "date": "June",
-    "location": "Columbus, OH",
+    "date": "Wednesday, June 13 - Sunday, June 17",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.6754366719188!2d-83.00381768433155!3d39.97100869054961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88388f2900662273%3A0x9a213d4bb36c71ee!2sGreater+Columbus+Convention+Center!5e0!3m2!1sen!2sus!4v1520523136637",
     "url": "http://originsgamefair.com",
     "genre": "gaming"
   },
   {
     "name": "Blizzcon",
-    "date": "November",
-    "location": "Anaheim, CA",
+    "date": "November - Dates TBA",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13261.804124821207!2d-117.9208732!3d33.8006719!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3eb2a2ba13672914!2sAnaheim+Convention+Center!5e0!3m2!1sen!2sus!4v1520523351210",
     "url": "https://blizzcon.com/en-us/",
     "genre": "gaming"
   },
   {
     "name": "Magfest",
-    "date": "January",
-    "location": "National Harbor, MD",
+    "date": "Thursday, January 4 - Sunday, January 7",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12440.981217587965!2d-77.0171597!3d38.7810105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa0869d3ec47e8d52!2sGaylord+National+Resort+%26+Convention+Center!5e0!3m2!1sen!2sus!4v1520523437015",
     "url": "https://www.magfest.org",
     "genre": "gaming"
   },
   {
     "name": "TwitchCon",
-    "date": "October",
-    "location": "San Jose, CA",
+    "date": "Thursday, October 26 - Sunday, October 28",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12690.230559570542!2d-121.8875475!3d37.3293048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1615f1acacf4449a!2sSan+Jose+McEnery+Convention+Center!5e0!3m2!1sen!2sus!4v1520523547438",
     "url": "https://www.twitchcon.com",
     "genre": "gaming"
   },
   {
     "name": "SaltCON",
-    "date": "March",
-    "location": "Layton, UT",
+    "date": "Thursday, March 1 - Sunday, March 4",
+    "location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12029.086461756688!2d-111.981063!3d41.0849117!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa4a9f4148f69c73c!2sDavis+Conference+Center!5e0!3m2!1sen!2sus!4v1520523630300",
     "url": "http://saltcon.com",
     "genre": "gaming"
   }
