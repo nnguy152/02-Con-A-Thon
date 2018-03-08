@@ -193,24 +193,25 @@ form h4 {
   width: 600%;
   border: 5px dotted green;
 }
-/* .popup .xed {
-  position: sticky;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  margin-left: 98%;
-  color: black;
-} */
 .content {
   margin: auto;
   height: 90%;
   width: 90%;
   border: 3px solid #072083;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   background: white;
 }
-
+.content li {
+  margin: 5px;
+}
+.content li span {
+  float: left;
+  font-weight: bolder;
+}
+.content li span a {
+  padding-top: 15px;
+}
 @media screen and (max-width: 1240px) {
   .conthon {
     font-size: 40px;
