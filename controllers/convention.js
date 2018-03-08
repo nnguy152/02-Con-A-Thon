@@ -29,6 +29,11 @@ router.get('/edit/:id', (req, res) => {
   .then(con => res.render('conventions/edit', con))
 })
 
+router.put('/edit/:id', (req, res) => {
+  Con.findOneAndUpdate({_id: req.params.id})
+  .then(con => res.render('conventions/edit', con))
+})
+
 router.post('/', (req, res) => {
   Con.create({
     name: req.body.name,

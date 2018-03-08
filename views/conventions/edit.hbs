@@ -8,11 +8,11 @@
   <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
 
-<main class="ten-container" style="">
+<main class="ten-container">
   <h2 class="ten-header">Notes for {{this.name}}</h2>
   <div class="line"></div>
-  <section style="text-align:left;padding-top: 30px;word-wrap: break-word;word-break: break-all;height: 60vh;">{{this.description}}</section>
-              <form class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">
+  <section style="text-align:left;padding-top: 30px;word-wrap: break-word;word-break: break-all;height: 50vh; overflow:scroll;">{{this.description}}</section>
+              <form style="margin-bottom: 100px;" class="edit-form" action="/Conventions/{{this.id}}?_method=put" method="POST">
                 <p>
                   <label for="description">Notes</label>
                   <textarea style="width:700px;" value="{{this.description}}" type="text" name="description" class="input text-box"></textarea>
