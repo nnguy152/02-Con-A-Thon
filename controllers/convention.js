@@ -90,19 +90,10 @@ router.delete('/:id', (req, res) => {
   .then(() => res.redirect('index'))
 })
 
-// Shows more details about each convention
-// "save" convention to display on profile page
-// add "save" button -when clicked, pushes convention into array
-// then in profile page, displays array^ router up there^^^
-// var faveList = []
-// router.get('/', (req, res) => {
-//   Con.findOne({_id: req.params.id})
-//   .then(con => {
-//     faveList.push(con) // WORKS
-//     console.log(faveList)
-//   })
-//   .then(faveList => {
-//     res.render('conventions/index', faveList)
+// router.put('/:id', (req, res) => {
+//   Con.findOneAndUpdate({_id: req.params.id}, req.body)
+//   .then(() => {
+//     res.redirect('conventions/index')
 //   })
 // })
 

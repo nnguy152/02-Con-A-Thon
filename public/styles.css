@@ -112,6 +112,9 @@ ul {
 li {
   margin: 15px;
 }
+.profile {
+  height: 78vh;
+}
 
 /* top ten list */
 .cons-list {
@@ -192,13 +195,16 @@ form h4 {
 }
 .my-con-edit {
   border:2px black solid;
-  background:none;
-  margin-top: 217px;
-  margin-right: 12%;
+  background: #F85B1A;
+  margin-top: 25vh;
+  margin-right: 45vh;
   border-radius: 0;
   height: 380px;
   width: 30%;
   float: right;
+}
+.text-box {
+  width: 400px;
 }
 .popup .close {
   position: absolute;
@@ -228,6 +234,35 @@ form h4 {
 .content li span a {
   padding-top: 15px;
 }
+.x {
+  font-size: 30px;
+  margin-top: -20px;
+  margin-right: -10px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 3px 2px #072083;
+  float: right;
+}
+.x:hover {
+  color:#072083;
+  text-shadow: 3px 2px white;
+}
+/* .helper-trigger,
+.helper-show {
+  display: none;
+  width: 500px;
+  margin-left: 95%;
+  z-index: 1;
+}
+
+.helper-trigger[type="checkbox"]:checked + .helper-show {
+  display: block;
+}
+.helper-trigger[type="checkbox"]:checked + .helper-show + .helper-hide {
+  display: none;
+} */
+
 
 /* smaller screen */
 @media screen and (max-width: 1240px) {

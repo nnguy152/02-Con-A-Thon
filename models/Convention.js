@@ -6,12 +6,12 @@ const ConSchema = new mongoose.Schema({
     required: true
   },
   location: {
-    type: String,
-    required: true
+    type: String
+    // required: true
   },
   date: {
-    type: String,
-    required: true
+    type: String
+    // required: true
   },
   description: String,
   url: String,
