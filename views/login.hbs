@@ -1,3 +1,4 @@
+<div class="displayed">
 <header class="header-bg">
   <a href="/" class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</a>
   <nav class="logs">
@@ -13,18 +14,18 @@
   <div>{{message}}</div>
 {{/if}}
 
-<form method="post" action="/login">
+<form class="plus" method="post" action="/conventions/login">
   <div>
-    <label for="username">Username</label>
-    <input type="text" name="username" id="username">
+    <label for="email">Email</label>
+    <input class="join" type="text" name="email" id="email">
   </div>
 
   <div>
-    <label for="username">Password</label>
-    <input type="password" name="password" id="password">
+    <label for="password">Password</label>
+    <input class="join" type="password" name="password" id="password">
   </div>
 
-  {{!-- <input type="submit"> --}}
-  <button disabled>Submit</button>
+  <input type="submit">
 </form>
+</div>
 </div>

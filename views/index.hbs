@@ -1,3 +1,4 @@
+<div class="displayed">
 <header class="header-bg">
   <h1 class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</h1>
   <nav class="logs">
@@ -8,13 +9,25 @@
   <p class="about">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
 
+<div class="ten-container welcome">
+  <section>
+    <h1 class="ten-header">Welcome to Con-A-Thon!</h1>
+    <div class="line"></div>
+    <h4>No, this isn't for conning people. （•‿•）</h4>
+    <p>This is a convention trip planning website. 
+      We have a list of 30 popular anime, comic, and gaming conventions around the USA
+      if you don't know where to start.</p>
+      <p>Otherwise, you can signup and start planning your trips! </p>
+  </section>
+</div>
 
 <div class="ten-container">
   <h2 class="ten-header">Top Ten Conventions</h2>
-  {{!-- displays top ten conventions on home --}}
+  <div class="line"></div>
   <section class="ten">
     <ul>
-      <h3>Anime</h3>
+      <h3 class="ten-list-header">Anime</h3>
+      <div class="mini-line"></div>
       {{#each animeCon}}
         <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
         <div id="popup{{this.id}}" class="overlay">
@@ -32,7 +45,8 @@
     </ul>
 
     <ul>
-      <h3>Comic</h3>
+      <h3 class="ten-list-header">Comic</h3>
+      <div class="mini-line"></div>
       {{#each comicCon}}
         <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
           <div id="popup{{this.id}}" class="overlay">
@@ -50,7 +64,8 @@
     </ul>
 
     <ul>
-      <h3>Game</h3>
+      <h3 class="ten-list-header">Game</h3>
+      <div class="mini-line"></div>
       {{#each gameCon}}
         <li><a class="button cons-list" href="#popup{{this.id}}">{{this.name}}</a></li>
         <div id="popup{{this.id}}" class="overlay">
@@ -67,4 +82,5 @@
       {{/each}}
     </ul>
   </section>
+</div>
 </div>

@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-// const passport = require('passport')
+const passport = require('passport')
 const Con = require('../models/Convention')
 // const User = require('../models/User')
 
@@ -44,35 +44,34 @@ router.post('/', (req, res) => {
 // log in/signup/logout
 router.get('/signup', (req, res) => {
   res.render('signup'
-  // , {message: req.flash('signupMessage')}
+  , {message: req.flash('signupMessage')}
   )
 })
-// router.post('/signup', (req, res) => {
-//   var signupStrategy = passport.authenticate('local-signup', {
-//     successRedirect: '/conventions/signup',
-//     failureRedirect: '/conventions/signup',
-//     failureFlash: true
-//   })
-//   return signupStrategy(req, res)
-// })
+router.post('/signup', (req, res) => {
+  var signupStrategy = passport.authenticate('local-signup', {
+    successRedirect: '/conventions/signup',
+    failureRedirect: '/conventions/signup',
+    failureFlash: true
+  })
+  return signupStrategy(req, res)
+})
 router.get('/login', (req, res) => {
   res.render('login'
-  // , {message: req.flash('loginMessage')}
+  , {message: req.flash('loginMessage')}
 )
 })
-// router.post('/login', (req, res) => {
-//   console.log(User)
-//   var loginProperty = passport.authenticate('local-login', {
-//     successRedirect: 'signup',
-//     failureRedirect: '/conventions/login',
-//     failureFlash: true
-//   })
-//   return loginProperty(req, res)
-// })
-// router.get('/logout', (req, res) => {
-//   req.logout()
-//   res.redirect('/')
-// })
+router.post('/login', (req, res) => {
+  var loginProperty = passport.authenticate('local-login', {
+    successRedirect: '/conventions/index',
+    failureRedirect: '/conventions/login',
+    failureFlash: true
+  })
+  return loginProperty(req, res)
+})
+router.get('/logout', (req, res) => {
+  req.logout()
+  res.redirect('/')
+})
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 router.get('/:id', (req, res) => {

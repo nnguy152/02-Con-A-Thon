@@ -1,7 +1,8 @@
+<div class="displayed">
 <header class="header-bg">
   <a href="/" class="conthon"><span><img src="https://vignette.wikia.nocookie.net/uncyclopedia/images/6/67/Link.gif/revision/latest?cb=20090506153048" style="width: 50px;"></span>Con-A-Thon</a>
   <nav class="logs">
-    <a href='#' class="menu">Logout</a>
+    <a href='/conventions' class="menu">Logout</a>
   </nav>
   <p class="about" style="width: 600px;">Maximize Your Geek by Planning Out Your Cons!</p>
 </header>
@@ -9,9 +10,6 @@
 <div class="ten-container">
 <h1 class="ten-header">Profile</h1>
   <div class="my-con">
-    {{!-- <div class="calendar" style='width:300px;border:2px black solid;height:225px;overflow:hidden;float:right;'>
-      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%232952A3&amp;src=%23contacts%40group.v.calendar.google.com&amp;color=%2328754E&amp;src=en.usa%23holiday%40group.v.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" width="300" height="250" frameborder="0" scrolling="no"></iframe>    
-    </div> --}}
     <ul class="my-cons-list">
       {{#each con}}
         <li><a href="#popup{{this.id}}">{{this.name}}</a></li>
@@ -78,4 +76,5 @@
         </form>
     </div>
   </div>
+</div>
 </div>
